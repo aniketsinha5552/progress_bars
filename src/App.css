@@ -1,5 +1,7 @@
 
-
+.App{
+  text-align: center;
+}
 .easy{
   /* background-color: wheat; */
   place-content: center;
@@ -8,7 +10,7 @@
   display: grid;
   flex: 0.33;
   padding: 10px 10px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .medium{
   /* background-color: wheat; */
@@ -18,7 +20,7 @@
   display: grid;
   flex: 0.33;
   padding: 10px 10px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .hard{
   /* background-color: wheat; */
@@ -28,7 +30,7 @@
   display: grid;
   flex: 0.33;
   padding: 10px 10px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #bar-container{
@@ -98,7 +100,7 @@
 #mainBody{
   display: flex;
   flex-direction: row;
-  padding: 50px 5px;
+  
 }
 
 #refreshBtn{
@@ -109,3 +111,10 @@
   border-radius: 5px;
 
 }
+
+
+#heading{
+  color: rgb(19,155,128);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

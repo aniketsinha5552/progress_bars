@@ -38,9 +38,12 @@ function App() {
     }
   }
 
+
   return (
     <div className="App">
+      <h1 id="heading">Animated Progress Bars</h1>
       <body id="mainBody">
+        
         <div className="easy">
           <p>{easy / 2}% </p>
           <div id="bar-container">
@@ -116,7 +119,9 @@ function App() {
             <img src={Refresh}></img>
           </button>
         </div>
+       
       </body>
+     
     </div>
   );
 }
